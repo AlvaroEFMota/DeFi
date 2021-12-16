@@ -1,0 +1,10 @@
+npx hardhat run --network ropsten scripts/deploy.js
+(await ethers.provider.getBalance(accounts[0])).toString()
+accounts = await ethers.provider.listAccounts()
+npx hardhat run --network localhost ./scripts/index.js
+(await box.retrieve()).toString()
+await box.retrieve()
+await box.store(10)
+box
+const box = await Box.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+const Box = await ethers.getContractFactory('Box');
