@@ -12,14 +12,17 @@
   "dependencies": {
     "@koa/router": "^10.1.1",
     "dotenv": "^10.0.0",
-    "koa": "^2.13.4",
-    "web3": "^1.6.1"
+    "koa": "^2.13.4"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
     "@openzeppelin/contracts": "^4.4.1",
     "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.2",
-    "hardhat": "^2.7.1"
+    "hardhat": "^2.7.1",
+    "web3": "^1.6.1"
   }
 }
