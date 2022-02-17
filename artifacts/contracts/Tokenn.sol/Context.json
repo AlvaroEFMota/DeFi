@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
   "contractName": "Context",
-  "sourceName": "contracts/Token.sol",
+  "sourceName": "contracts/Tokenn.sol",
   "abi": [
     {
       "inputs": [],
